@@ -43,10 +43,7 @@ export function VideoPlayer() {
   };
 
   return (
-    <div
-      ref={ref}
-      className="relative flex aspect-video rounded-xl bg-slate-200"
-    >
+    <div ref={ref} className="relative flex aspect-video rounded-xl bg-black">
       <MediaController
         ref={mediaControllerRef}
         className={twMerge(
