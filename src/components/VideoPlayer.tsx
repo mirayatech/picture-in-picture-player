@@ -2,7 +2,6 @@ import {
   MediaController,
   MediaControlBar,
   MediaPlayButton,
-  MediaMuteButton,
   MediaTimeRange,
   MediaTimeDisplay,
   MediaFullscreenButton,
@@ -80,7 +79,6 @@ export function VideoPlayer() {
         <video slot="media" src="/video.webm" />
         <MediaControlBar>
           <MediaPlayButton />
-          <MediaMuteButton />
           <MediaTimeRange />
           <MediaTimeDisplay />
           <MediaFullscreenButton />
