@@ -11,8 +11,11 @@
   },
   "dependencies": {
     "framer-motion": "^11.5.4",
+    "media-chrome": "^4.1.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-intersection-observer": "^9.13.1",
+    "tailwind-merge": "^2.5.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
