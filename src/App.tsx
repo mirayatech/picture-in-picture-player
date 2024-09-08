@@ -1,3 +1,18 @@
-export default function App() {
-  return <h1 className="text-3xl font-bold">🎥 Picture-in-Picture Player</h1>;
+import { VideoDescription } from "./components/VideoDescription";
+import { DynamicContent } from "./components/DynamicContent";
+import { VideoPlayer } from "./components/VideoPlayer";
+import "./index.css";
+
+function App() {
+  return (
+    <main className="py-12 px-5">
+      <div className="mx-auto w-full max-w-4xl">
+        <VideoDescription />
+        <VideoPlayer />
+        <DynamicContent />
+      </div>
+    </main>
+  );
 }
+
+export default App;
