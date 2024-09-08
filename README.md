@@ -62,3 +62,9 @@ To run the project locally, follow these steps:
 ├── package.json        # Project configuration and dependencies
 └── tsconfig.json       # TypeScript configuration
 ```
+
+## 🎥 Video
+
+https://github.com/user-attachments/assets/6e12b39e-8535-4dc3-aad1-aa0dfea7e2c6
+
+
